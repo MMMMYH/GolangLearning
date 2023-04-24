@@ -5,25 +5,25 @@ import (
 )
 
 //1
-// func main() {
-// 	var a string
-// 	fmt.Println("请输入字母a/b/c/d/e")
-// 	fmt.Scanln(&a)
-// 	switch a {
-// 	case "a":
-// 		fmt.Println("A")
-// 	case "b":
-// 		fmt.Println("B")
-// 	case "c":
-// 		fmt.Println("C")
-// 	case "d":
-// 		fmt.Println("D")
-// 	case "e":
-// 		fmt.Println("E")
-// 	default:
-// 		fmt.Println("输入错误")
-// 	}
-// }
+func main() {
+	var a string
+ 	fmt.Println("请输入字母a/b/c/d/e")
+ 	fmt.Scanln(&a)
+ 	switch a {
+ 	case "a":
+ 		fmt.Println("A")
+ 	case "b":
+ 		fmt.Println("B")
+ 	case "c":
+ 		fmt.Println("C")
+ 	case "d":
+ 		fmt.Println("D")
+ 	case "e":
+ 		fmt.Println("E")
+ 	default:
+		fmt.Println("输入错误")
+ 	}
+ }
 
 // 2
 // func main() {
